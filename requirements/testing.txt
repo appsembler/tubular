@@ -6,7 +6,7 @@
 #
 astroid==3.0.1
     # via
-    #   -r requirements/testing.in
+    #   -r testing.in
     #   pylint
     #   pylint-celery
 boto3==1.28.68
@@ -35,20 +35,20 @@ coverage[toml]==7.3.2
     # via
     #   coverage
     #   pytest-cov
-cryptography==41.0.4
+cryptography==42.0.2
     # via moto
 ddt==1.6.0
-    # via -r requirements/testing.in
+    # via -r testing.in
 dill==0.3.7
     # via pylint
 edx-lint==5.3.4
-    # via -r requirements/testing.in
+    # via -r testing.in
 exceptiongroup==1.1.3
     # via pytest
 execnet==2.0.2
     # via pytest-xdist
 httpretty==1.1.4
-    # via -r requirements/testing.in
+    # via -r testing.in
 idna==3.4
     # via requests
 iniconfig==2.0.0
@@ -70,9 +70,9 @@ markupsafe==2.1.3
 mccabe==0.7.0
     # via pylint
 mock==5.1.0
-    # via -r requirements/testing.in
+    # via -r testing.in
 moto==4.2.6
-    # via -r requirements/testing.in
+    # via -r testing.in
 packaging==23.2
     # via pytest
 pbr==5.11.1
@@ -85,13 +85,13 @@ py==1.11.0
     # via pytest-pycodestyle
 pycodestyle==2.11.1
     # via
-    #   -r requirements/testing.in
+    #   -r testing.in
     #   pytest-pycodestyle
 pycparser==2.21
     # via cffi
 pylint==3.0.2
     # via
-    #   -r requirements/testing.in
+    #   -r testing.in
     #   edx-lint
     #   pylint-celery
     #   pylint-django
@@ -107,19 +107,19 @@ pylint-plugin-utils==0.8.2
     #   pylint-django
 pytest==7.4.2
     # via
-    #   -r requirements/testing.in
+    #   -r testing.in
     #   pytest-cov
     #   pytest-pycodestyle
     #   pytest-pylint
     #   pytest-xdist
 pytest-cov==4.1.0
-    # via -r requirements/testing.in
+    # via -r testing.in
 pytest-pycodestyle==2.3.1
-    # via -r requirements/testing.in
+    # via -r testing.in
 pytest-pylint==0.21.0
-    # via -r requirements/testing.in
+    # via -r testing.in
 pytest-xdist==3.3.1
-    # via -r requirements/testing.in
+    # via -r testing.in
 python-dateutil==2.8.2
     # via
     #   botocore
@@ -134,11 +134,11 @@ requests==2.31.0
     #   requests-mock
     #   responses
 requests-mock==1.11.0
-    # via -r requirements/testing.in
+    # via -r testing.in
 responses==0.20.0
     # via
-    #   -c requirements/constraints.txt
-    #   -r requirements/testing.in
+    #   -c constraints.txt
+    #   -r testing.in
     #   moto
 s3transfer==0.7.0
     # via boto3
@@ -171,6 +171,6 @@ urllib3==1.26.18
 werkzeug==3.0.0
     # via moto
 wrapt==1.15.0
-    # via -r requirements/testing.in
+    # via -r testing.in
 xmltodict==0.13.0
     # via moto
