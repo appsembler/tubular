@@ -11,11 +11,11 @@ attrs==23.1.0
     #   jsonlines
     #   zeep
 backoff==2.2.1
-    # via -r requirements/base.in
+    # via -r base.in
 beautifulsoup4==4.12.2
     # via cloudflare
 boto3==1.28.68
-    # via -r requirements/base.in
+    # via -r base.in
 botocore==1.31.68
     # via
     #   boto3
@@ -34,13 +34,13 @@ charset-normalizer==3.3.1
     # via requests
 click==8.1.7
     # via
-    #   -r requirements/base.in
+    #   -r base.in
     #   click-log
     #   edx-django-utils
 click-log==0.4.0
-    # via -r requirements/base.in
+    # via -r base.in
 cloudflare==2.12.4
-    # via -r requirements/base.in
+    # via -r base.in
 cryptography==41.0.4
     # via
     #   pyjwt
@@ -49,7 +49,7 @@ deprecated==1.2.14
     # via pygithub
 django==3.2.22
     # via
-    #   -c requirements/constraints.txt
+    #   -c constraints.txt
     #   django-crum
     #   django-waffle
     #   edx-django-utils
@@ -62,21 +62,21 @@ easydict==1.10
 edx-django-utils==5.7.0
     # via edx-rest-api-client
 edx-opaque-keys==2.5.1
-    # via -r requirements/base.in
+    # via -r base.in
 edx-rest-api-client==5.6.1
-    # via -r requirements/base.in
+    # via -r base.in
 freezegun==1.2.2
-    # via -r requirements/base.in
+    # via -r base.in
 gitdb==4.0.11
     # via gitpython
 gitpython==3.1.40
-    # via -r requirements/base.in
+    # via -r base.in
 google-api-core==2.12.0
     # via google-api-python-client
 google-api-python-client==1.12.11
     # via
-    #   -c requirements/constraints.txt
-    #   -r requirements/base.in
+    #   -c constraints.txt
+    #   -r base.in
 google-auth==2.23.3
     # via
     #   google-api-core
@@ -91,14 +91,14 @@ httplib2==0.22.0
     # via
     #   google-api-python-client
     #   google-auth-httplib2
-idna==3.4
+idna==3.7
     # via requests
 isodate==0.6.1
     # via zeep
 jenkinsapi==0.3.13
-    # via -r requirements/base.in
+    # via -r base.in
 jinja2==3.1.2
-    # via -r requirements/base.in
+    # via -r base.in
 jmespath==1.0.1
     # via
     #   boto3
@@ -106,7 +106,7 @@ jmespath==1.0.1
 jsonlines==4.0.0
     # via cloudflare
 kubernetes==28.1.0
-    # via -r requirements/base.in
+    # via -r base.in
 lxml==4.9.3
     # via zeep
 markupsafe==2.1.3
@@ -140,7 +140,7 @@ pyasn1-modules==0.3.0
 pycparser==2.21
     # via cffi
 pygithub==2.1.1
-    # via -r requirements/base.in
+    # via -r base.in
 pyjwt[crypto]==2.8.0
     # via
     #   edx-rest-api-client
@@ -148,7 +148,7 @@ pyjwt[crypto]==2.8.0
     #   simple-salesforce
 pymongo==3.13.0
     # via
-    #   -r requirements/base.in
+    #   -r base.in
     #   edx-opaque-keys
 pynacl==1.5.0
     # via
@@ -165,7 +165,7 @@ python-dateutil==2.8.2
     #   pygithub
 pytz==2023.3.post1
     # via
-    #   -r requirements/base.in
+    #   -r base.in
     #   django
     #   jenkinsapi
     #   zeep
@@ -173,12 +173,12 @@ pytzdata==2020.1
     # via pendulum
 pyyaml==6.0.1
     # via
-    #   -r requirements/base.in
+    #   -r base.in
     #   cloudflare
     #   kubernetes
 requests==2.31.0
     # via
-    #   -r requirements/base.in
+    #   -r base.in
     #   cloudflare
     #   edx-rest-api-client
     #   google-api-core
@@ -204,14 +204,14 @@ rsa==4.9
 s3transfer==0.7.0
     # via boto3
 sailthru-client==2.3.5
-    # via -r requirements/base.in
+    # via -r base.in
 simple-salesforce==1.12.5
-    # via -r requirements/base.in
+    # via -r base.in
 simplejson==3.19.2
     # via sailthru-client
 six==1.16.0
     # via
-    #   -r requirements/base.in
+    #   -r base.in
     #   google-api-python-client
     #   isodate
     #   jenkinsapi
@@ -237,7 +237,7 @@ typing-extensions==4.8.0
     #   edx-opaque-keys
     #   pygithub
 unicodecsv==0.14.1
-    # via -r requirements/base.in
+    # via -r base.in
 uritemplate==3.0.1
     # via google-api-python-client
 urllib3==1.26.18
@@ -247,14 +247,14 @@ urllib3==1.26.18
     #   pygithub
     #   requests
 validators==0.22.0
-    # via -r requirements/base.in
+    # via -r base.in
 websocket-client==1.6.4
     # via kubernetes
 wrapt==1.15.0
     # via
-    #   -r requirements/base.in
+    #   -r base.in
     #   deprecated
 yagocd==1.0.1
-    # via -r requirements/base.in
+    # via -r base.in
 zeep==4.2.1
     # via simple-salesforce
